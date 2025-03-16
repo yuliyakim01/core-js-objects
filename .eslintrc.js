@@ -14,7 +14,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2024,
   },
-<<<<<<< HEAD
   rules: {
     "prefer-object-spread": "off",
     'prettier/prettier': [
@@ -25,7 +24,5 @@ module.exports = {
     ],
   },
   plugins: ['prettier'],
-=======
->>>>>>> refs/remotes/origin/main
   noInlineConfig: true,
 };

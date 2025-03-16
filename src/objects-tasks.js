@@ -437,7 +437,7 @@ class CssSelector {
     this.order.push(order);
   }
 
-  // 🔥 Static method to avoid 'this' issue in ESLint
+  // Static method to avoid 'this' issue in ESLint
   static combine(selector1, combinator, selector2) {
     const newSelector = new CssSelector();
     newSelector.selector = `${selector1.stringify()} ${combinator} ${selector2.stringify()}`;
